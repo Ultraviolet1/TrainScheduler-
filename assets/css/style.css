@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+
+
+.jumbotron,
+.card-header {
+    background-color: rgb(177, 205, 231);
+    text-align: center;
+
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+.card-body,
+tbody {
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: rgb(223, 228, 236);
+}
+
+body {
+    background-image: url("photos/marina-vitale-206978-unsplash.jpg");
+
+}

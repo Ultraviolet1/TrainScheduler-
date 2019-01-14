@@ -6,20 +6,51 @@
 
 .jumbotron,
 .card-header {
-    background-color: rgb(177, 205, 231);
+    
+    background-repeat: no-repeat;
+    background-image: url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/golden-center-light-rays_b1nscvhgr__F0000.png");
+    
+    background-color: rgb(163, 112, 2);
     text-align: center;
-
-    font-family: 'Roboto Condensed', sans-serif;
+    color: white;
+    font-family: 'Arial', sans-serif;
 
 }
 
 .card-body,
 tbody {
-    font-family: 'Roboto Condensed', sans-serif;
-    background-color: rgb(223, 228, 236);
+    font-family: "Arial", sans-serif;
+    background-color: white;
+    background-position: center;
 }
 
+.container { 
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
 body {
-    background-image: url("photos/marina-vitale-206978-unsplash.jpg");
-
+    background-color: black;
+    background-image: url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/golden-center-light-rays_b1nscvhgr__F0000.png");
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    
 }
+
+
+@media screen and (max-width:980px) {  
+}
+
+@media screen and (max-width:768px) {
+}
+
+@media screen and (max-width:640px) {
+}
+
+@media (max-width: 640px) {
+    .jumbotron, .card-header{
+      position: static;
+    }
+}
+

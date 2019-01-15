@@ -35,11 +35,6 @@ var config = {
   
     database.ref().push(newTrain);
   
-    // console.log(newTrain.trainName);
-    // console.log(newTrain.destination);
-    // console.log(newTrain.firstArrival);
-    // console.log(newTrain.frequency);
-  
     $("#train-name").val("");
     $("#train-dest").val("");
     $("#train-time").val("");
@@ -56,12 +51,12 @@ var config = {
     var tArrival = childSnapshot.val().firstArrival;
     var tFreq = childSnapshot.val().frequency;
   
-    // console.log(tName,tDest,tArrival,tFreq);
+   
   
     var tFrequency = tFreq;
-    // frequency
+   
     var firstTime = tArrival;
-  // firstArrival
+  
     var firstTimeConverted = moment(firstTime, "hh:mm").subtract(1, "years");
     // console.log(firstTimeConverted);
   
@@ -72,7 +67,7 @@ var config = {
     // console.log("Difference in Time:" + diffTime);
   
     var tRemainder = diffTime % tFrequency;
-    // console.log("Remaining Minutes" + tRemainder);
+   
   
     var tMinutesTillTrain = tFrequency - tRemainder;
     // console.log("Minutes Till Train: " + tMinutesTillTrain);

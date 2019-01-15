@@ -2,7 +2,10 @@
     box-sizing: border-box;
 }
 
+#masthead {
+    color: black;
 
+}
 
 .jumbotron,
 .card-header {
@@ -27,6 +30,7 @@ tbody {
 .container { 
     background-position: center;
     background-repeat: no-repeat;
+
 
 }
 body {

@@ -11,9 +11,9 @@
 .card-header {
     
     background-repeat: no-repeat;
-    background-image: url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/golden-center-light-rays_b1nscvhgr__F0000.png");
+    /* background-image: url("https://external-preview.redd.it/q2sYa64g3rLQMRFdbqkU_k_V7kQ1lUx1jO3kuv2CDVc.jpg?auto=webp&s=dffdce49994e684421b73ee6605810a8eae2de03"); */
     
-    background-color: rgb(163, 112, 2);
+    background-color:rgb(43, 51, 71);
     text-align: center;
     color: white;
     font-family: 'Arial', sans-serif;
@@ -35,7 +35,7 @@ tbody {
 }
 body {
     background-color: black;
-    background-image: url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/golden-center-light-rays_b1nscvhgr__F0000.png");
+    background-image: url("https://external-preview.redd.it/q2sYa64g3rLQMRFdbqkU_k_V7kQ1lUx1jO3kuv2CDVc.jpg?auto=webp&s=dffdce49994e684421b73ee6605810a8eae2de03");
     background-repeat: no-repeat;
     height: 100%;
     width: 100%;

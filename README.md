@@ -1,4 +1,4 @@
-# TrainTime-Firebase
+# Train Scheduler 
 
 Created during Week 7 of KU Coding Bootcamp. This is a Firebase Application to accept input from user to create a fictional train list and calculate the next train and minutes away.
 
@@ -16,3 +16,4 @@ Form to create new trains to add to the database.
 - Bootstrap
 - jQuery
 - Firebase
+
